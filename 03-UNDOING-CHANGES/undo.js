@@ -1,4 +1,4 @@
-// restore working directory changes without changin branches
+// restore working directory changes without changing branches
 git checkout -- indexedDB.html
 
 // undo changes to our staging index(to assemble a commit)
