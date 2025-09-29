@@ -13,8 +13,5 @@ git config --global core.editor "code --new-window --wait"
 git config --global color.ui true
 
 
-
-
-
 //this will view the git configuaration file
 cat .gitconfig

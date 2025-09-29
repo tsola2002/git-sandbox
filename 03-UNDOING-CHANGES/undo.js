@@ -5,7 +5,7 @@ git checkout -- indexedDB.html
 git reset HEAD indexedDB.html
 
 // undoing commits that changes has been made
-git commit--ammend - m "items to bring"
+git commit --ammend -m "items to bring"
 
 //retrieve old versions(this will place it in your staging index)
 git checkout 2907d1260 -- resources.html
