@@ -7,6 +7,12 @@ touch index.html
 // to check the status of your repository
 git status
 
+// this will add a file to the staging index
+git add . 
+git add index.html
+// this will commit a file to the local repository
+git commit - m "Initial Commit"
+
 // initalizes a repo with a new branch
 git init -b main
 
@@ -39,7 +45,6 @@ git help log
 // this will show you the last 2 commits in your git log
 git log -n 1
 
-
 // this will show you commits on the specified date and after that date
 git log --since=2025-08-24
 
@@ -58,27 +63,5 @@ git log -p -2
 // this will display your commits in oneline
 git log --pretty=oneline
 
-// this will format the logs using wildcards
+// this will format the log display using template variables
 git log --pretty=format:"%h - %an, %ar : %s"
-
-// this will display your log in graphical format
-git log --pretty=format:"%h %s" --graph
-
-
-// find the location of the head point
-cd .git
-cat HEAD
-
-// show current head pointers sha1 id
-cd refs/heads
-cat master
-
-// show the location of the head pointer
-git log HEAD
-
-// shows the difference between the repository and the last head pointer location
-git diff
-
-
-// shows the difference between the repository and the staging area
-git diff --staged
