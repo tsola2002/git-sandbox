@@ -13,5 +13,7 @@ git rm deleted_file.html
 // git will automatically move it to the staging index
 git mv old_file.html new-file.html
 
+
+//create a new directory
 // moving a file into a directory
 git mv thirdfile.html first-directory/thirdfile.html
