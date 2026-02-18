@@ -8,5 +8,5 @@ git status
 // add deleted file to see if anything changes
 git add file_to_delete.html
 
-// delete a file via git
+// delete a file via git this does a unix-based deletion
 git rm file_to_delete.html
