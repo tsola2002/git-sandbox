@@ -1,3 +1,7 @@
+//create a file called file-to-delete1.txt and file-to-delete2
+
+
+
 // delete a committed file then type
 git status
 
