@@ -9,6 +9,7 @@
 
 // ignore everthing in videos folder
 assets/videos
+
 // this will comment you gitignore code
 #
 
@@ -16,3 +17,4 @@ git config --global core.excludesfile ~/.gitignore_global
 
 // this will ignore a tracked file by removing it from the staging index
 git rm --cached indexedDB.php
+
